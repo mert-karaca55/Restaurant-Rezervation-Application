@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/logo"
+        tools:ignore="ContentDescription,MissingConstraints,ImageContrastCheck"
+        tools:layout_editor_absoluteX="136dp"
+        tools:layout_editor_absoluteY="68dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="267dp"
+        android:layout_height="49dp"
+        android:background="@drawable/textview1bg"
+        android:text="Good day, please login for reservation."
+        android:textColor="@color/design_default_color_on_secondary"
+        android:textSize="20dp"
+        tools:ignore="HardcodedText,MissingConstraints,SpUsage"
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="232dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/textview1bg"
+        android:drawableLeft="@drawable/account"
+        android:ems="10"
+        android:hint="User Name"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textColorHint="@color/design_default_color_on_secondary"
+        android:textSize="20dp"
+        tools:ignore="Autofill,DuplicateIds,HardcodedText,MissingConstraints,RtlHardcoded,SpUsage"
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="301dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/textview1bg"
+        android:drawableLeft="@drawable/lock"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textColorHint="@color/design_default_color_on_secondary"
+        android:textSize="20dp"
+        tools:ignore="Autofill,HardcodedText,MissingConstraints,RtlHardcoded,SpUsage"
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="368dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign"
+        tools:ignore="HardcodedText,MissingConstraints"
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="462dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Exit"
+        tools:ignore="HardcodedText,MissingConstraints"
+        tools:layout_editor_absoluteX="198dp"
+        tools:layout_editor_absoluteY="462dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

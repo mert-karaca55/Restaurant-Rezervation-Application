@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".Successful">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="384dp"
+        android:layout_height="140dp"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        android:background="@drawable/textview1bg"
+        android:drawableBottom="@drawable/succes"
+        android:fontFamily="casual"
+        android:text="Your reservation request has been created."
+        android:textColor="#000000"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText,MissingConstraints,RtlHardcoded,SpUsage,UseCompatTextViewDrawableXml"
+        tools:layout_editor_absoluteX="11dp"
+        tools:layout_editor_absoluteY="213dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="171dp"
+        android:layout_height="74dp"
+        android:text="@string/exit"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="108dp"
+        tools:layout_editor_absoluteY="400dp"
+        tools:ignore="HardcodedText,MissingConstraints,SpUsage" />
+</androidx.constraintlayout.widget.ConstraintLayout>
